@@ -1,0 +1,270 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container{
+    max-width: 1635px;
+
+}
+header{
+    background-color: #F6F8FF;
+    position: relative;
+    
+   
+}
+.first-line{
+    display: flex;
+   
+}
+.logo{
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+.nav-link{
+    display: flex;
+}
+.nav-item{
+    list-style-type: none;
+    margin-right: 62px;
+    margin-top: 55px;
+}
+.link-item{
+  text-decoration: none;
+  color: #172F53;
+}
+.sign{
+    margin-left: auto;
+    margin-top: 72px;
+    
+}
+.sign-item{
+    text-decoration: none;
+    margin-right: 50px;
+    color: #172F53;
+   
+}
+.si-second{
+    padding: 10px 20px;
+    border: 1px solid  #172F53;
+    border-radius: 5px;
+}
+.intro{
+    display: flex;
+}
+.intro-text{
+    width: 600px;
+    margin-left: 131px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 100px;
+}
+.intro-heading{
+    font-size: 44px;
+}
+.intro-paragraph{
+    color: #7D7D7D;
+}
+.track-form{
+    position: absolute;
+    top: 600px;
+     box-shadow: #7D7D7D;
+    width: 1000px;
+    background-color: #fff;
+    border-radius: 10px;
+   margin-left: 160px;
+   padding-bottom: 50px;
+    
+  
+}
+.track-label{
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 41px;
+    padding-left: 50px;
+}
+.track-span{
+    font-weight: normal;
+    font-size: 16px;
+   
+}
+#track{
+    width: 500px;
+    height: 50px;
+    border: none;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    padding-left: 30px;
+    margin-left: 50px;
+}
+.track-btn{
+    background-color: #21D8E3;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+   
+}
+.offer-heading{
+    padding-top: 202px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 104px;
+}
+.offer-strong{
+    color: #7D7D7D;
+    align-self: center;
+    font-size: 24px;
+    font-weight: normal;
+    text-decoration: underline;
+    
+}
+.offer-title{
+    align-self: center;
+    text-align: center;
+    color: #172F53;
+    font-size: 45px;
+    width: 800px;
+    line-height: 78px;
+
+}
+.offer-content{
+    display: flex;
+    margin-left: 130px;
+   
+}
+.offer-item{
+    list-style-type: none;
+    color:#172F53;
+    margin-right: 25px;
+    width: 290px;
+    height: 317px;
+    background-color: #F6F8FF;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 15px;
+    
+}
+.offer-item p{
+    font-size: 13px;
+    line-height: 15px;
+}
+.offer-item-3{
+    background-color: #5F5FFE;
+}
+.speed{
+    margin-bottom: 50px;
+}
+.discount{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.discount-text{
+    margin-top: 50px;
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.discount-title{
+    color: #172F53;
+    font-size: 45px;
+    line-height: 78px;
+}
+.discount-paragraph{
+    color: #7D7D7D;
+    font-size: 30px;
+    line-height: 45px;
+}
+.discount-link{
+    background-color: #21D8E3;
+    width: 450px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    border-radius: 10px;
+
+}
+.partnership{
+    display: flex;
+    
+}
+.partnership-heading{
+  margin-left: auto;
+  margin-right: auto;
+  width: 697px;
+}
+.partnership-block{
+    color: #7D7D7D;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    display: block;
+    font-weight: normal;
+}
+.partnership-title{
+    font-size: 52px;
+    line-height: 78px;
+    color: #172F53;
+    text-align: center;
+   
+    align-self: center;
+}
+.partnership-items{
+    margin: auto;
+}
+.partnership-list{
+    display: flex;
+    padding: 50px;
+    width: 1400px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: 110px;
+    margin-bottom: 200px;
+    box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
+     border-radius: 20px;
+}
+.partnership-item{
+    list-style-type: none;
+    margin-right: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+footer{
+    background-color: #172F53;
+    font-size: 25px;
+    color: #fff;
+    line-height: 37px;
+    display: flex;
+    max-width: 1920px;
+    margin: auto;
+}
+.information{
+    margin-left: 130px;
+   
+   
+}
+footer ul{
+    margin-top: 95px;
+}
+.item{
+  
+    list-style: none;
+    margin-bottom: 30px;
+   
+}
+.address{
+    width: 366px;
+}
+.link{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}

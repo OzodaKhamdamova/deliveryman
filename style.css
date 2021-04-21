@@ -9,6 +9,7 @@ header{
     
    
 }
+
 .first-line{
     display: flex;
    
@@ -44,7 +45,7 @@ header{
   color: #172F53;
 }
 .dropdown{
-    width: 168px;
+    width: 150px;
     position: absolute;
     margin: 0;
     padding: 0;
@@ -150,6 +151,11 @@ header{
     font-weight: 600;
     font-size: 15px;
    
+}
+.special-offer{
+    width: 1575px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .offer-heading{
     padding-top: 202px;

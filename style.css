@@ -9,10 +9,9 @@ header{
     
    
 }
-.header-container{
+.container{
     width: 1575px;
-    margin-left: auto;
-    margin-right: auto;
+   margin: 0 auto;
 }
 
 .first-line{
@@ -65,6 +64,7 @@ header{
   }
   .nav-item:hover .dropdown{
     display: block;
+    transition: width 2s, height 4s ease;
   } 
   .dropdown-link{
     text-decoration: none;
@@ -102,26 +102,33 @@ header{
     display: flex;
 }
 .intro-text{
-    width: 600px;
+    
     margin-left: 131px;
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 100px;
 }
 .intro-heading{
-    font-size: 44px;
+    font-size: 72px;
+    color: #172F53;
+    width: 684px;
+    line-height: 108px;
+   
+
 }
 .intro-paragraph{
     color: #7D7D7D;
+    font-size: 30px;
+    line-height: 45px;
 }
 .track-form{
     position: absolute;
-    top: 600px;
-     box-shadow: #7D7D7D;
-    width: 1000px;
+    top: 650px;
+    box-shadow: #7D7D7D;
+    width: 1470px;
     background-color: #fff;
     border-radius: 10px;
-   margin-left: 160px;
+    left: 300px;
    padding-bottom: 50px;
     
   
@@ -131,6 +138,7 @@ header{
     font-size: 25px;
     padding-top: 41px;
     padding-left: 50px;
+    color: #172F53;
 }
 .track-span{
     font-weight: normal;
@@ -275,7 +283,7 @@ header{
     margin: auto;
 }
 .partnership-list{
-    display: flex;
+    display:flex;
     padding: 50px;
     width: 1400px;
     background-color: #fff;
@@ -293,25 +301,15 @@ header{
 }
 footer{
     background-color: #172F53;
-    font-size: 25px;
-    color: #fff;
-    line-height: 37px;
-    display: flex;
-  
-    margin: auto;
-    padding-bottom: 100px;
+    
+ 
 }
 .information{
     margin-left: 130px;
    
    
 }
-.footer-container{
-    width: 1575px;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-}
+
 footer ul{
     margin-top: 95px;
     
@@ -329,6 +327,9 @@ footer ul{
     text-decoration: none;
     font-size: 25px;
     color: white;
+}
+address{
+    font-style: normal;
 }
 .site-footer{
     background-image: url('images/image\ 14.png');

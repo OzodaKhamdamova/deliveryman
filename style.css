@@ -1,22 +1,18 @@
 body{
     font-family: 'Poppins', sans-serif;
-    
 }
 
 header{
     background-color: #F6F8FF;
     position: relative;
-    
-   
 }
 .container{
     width: 1575px;
-   margin: 0 auto;
+    margin: 0 auto;
 }
 
 .first-line{
     display: flex;
-   
 }
 .logo{
     margin-right: 150px;
@@ -49,7 +45,6 @@ header{
   color: #172F53;
 }
 .dropdown{
-   
     position: absolute;
     margin: 0;
     padding: 0;
@@ -84,7 +79,6 @@ header{
 .sign{
     margin-left: auto;
     margin-top: 72px;
-    
 }
 .sign-item{
     text-decoration: none;
@@ -97,12 +91,10 @@ header{
     border: 1px solid  #172F53;
     border-radius: 5px;
 }
-
 .intro{
     display: flex;
 }
 .intro-text{
-    
     margin-left: 131px;
     margin-top: auto;
     margin-bottom: auto;
@@ -113,8 +105,6 @@ header{
     color: #172F53;
     width: 684px;
     line-height: 108px;
-   
-
 }
 .intro-paragraph{
     color: #7D7D7D;
@@ -128,10 +118,7 @@ header{
     width: 1470px;
     background-color: #fff;
     border-radius: 10px;
-    
-   padding-bottom: 50px;
-    
-  
+    padding-bottom: 50px;
 }
 .track-label{
     font-weight: 600;
@@ -163,7 +150,6 @@ header{
     color: #fff;
     font-weight: 600;
     font-size: 15px;
-   
 }
 .special-offer{
     width: 1575px;
@@ -182,7 +168,6 @@ header{
     font-size: 24px;
     font-weight: normal;
     text-decoration: underline;
-    
 }
 .offer-title{
     align-self: center;
@@ -196,7 +181,6 @@ header{
 .offer-content{
     display: flex;
     margin-left: 130px;
-   
 }
 .offer-item{
     list-style-type: none;
@@ -208,7 +192,6 @@ header{
     padding-top: 30px;
     padding-left: 30px;
     border-radius: 15px;
-    
 }
 .offer-item p{
     font-size: 13px;
@@ -256,7 +239,6 @@ header{
 }
 .partnership{
     display: flex;
-    
 }
 .partnership-heading{
   margin-left: auto;
@@ -301,24 +283,17 @@ header{
 }
 footer{
     background-color: #172F53;
-    
- 
 }
 .information{
     margin-left: 130px;
-   
-   
 }
 
 footer ul{
     margin-top: 95px;
-    
 }
 .item{
-  
     list-style: none;
     margin-bottom: 30px;
-   
 }
 .address{
     width: 366px;
